@@ -25,7 +25,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   .hui-btn {
     display: inline-block;
     cursor: pointer;

@@ -1,1 +1,5 @@
-@import './base';
+@import '~normalize.css';
+@import 'variable';
+@import 'base';
+@import 'mixins/index';
+@import 'components/index';

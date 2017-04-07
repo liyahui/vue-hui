@@ -1,6 +1,6 @@
-import button from './examples/button'
+import Button from './examples/button'
 
 export default [{
-	path: '/button',
-	component: button
+  path: '/button',
+  component: Button
 }]

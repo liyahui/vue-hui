@@ -1,0 +1,51 @@
+@keyframes buttonActiveEffect {
+  to {
+    opacity: 0;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-width: 6px
+  }
+}
+
+.hui-btn {
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  padding: 4px 15px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: all 0.3s;
+  user-select: none;
+  white-space: nowrap;
+  position: relative;
+  touch-action: manipulation;
+  border: 1px solid $btn-default-border;
+  border-radius: $btn-border-radius;
+  background-color: $btn-default-bg;
+  color: $btn-default-color;
+
+  &:hover {
+    color: $brand-primary;
+    border-color: $brand-primary;
+  }
+}
+
+.hui-btn-large {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.hui-btn-small {
+  padding: 2px 8px;
+}
+
+.hui-btn-primary {
+  @include button-variant($btn-primary-color, $btn-primary-bg, $btn-primary-border);
+}
+
+.hui-btn-danger {
+  @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
+}

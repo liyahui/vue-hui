@@ -1,30 +1,15 @@
 <template>
   <div id="app">
-    <Button type="primary">Primary</Button>
-    <Button>Default</Button>
-    <Button type="danger">Danger</Button>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Button from './components/button'
-
-export default {
-  name: 'app',
-  components: {
-    Button
+  export default {
+    name: 'App'
   }
-}
 </script>
 
-<style>
-  @import '~normalize.css';
-
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-
-  }
+<style lang="scss">
+  @import './styles/index';
 </style>

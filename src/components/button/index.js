@@ -1,2 +1,2 @@
-import Button from './button'
-export default Button
+import HuiButton from './button'
+export default HuiButton
